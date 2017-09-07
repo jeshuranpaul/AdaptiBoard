@@ -1,6 +1,6 @@
 ﻿var words = [], tree;
 $.ajax({
-    url: "/dictionaries/en_US/20k.txt",
+    url: "../dictionaries/en_US/20k.txt",
     async: false,
     success: function (data) {
         words = data.split("\n");
@@ -12,7 +12,7 @@ $.ajax({
 });
 
 
-var dictionary = new Typo("en_US", false, false, { dictionaryPath: "/dictionaries" });
+var dictionary = new Typo("en_US", false, false, { dictionaryPath: "../dictionaries" });
 var app = angular.module('AdaptiBoard', ['ngAnimate']);
 
 app.controller("prediction_panel_controller", ["$scope", function ($scope) {
