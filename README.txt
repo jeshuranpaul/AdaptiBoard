@@ -2,8 +2,6 @@ AdaptiBoard is a keyboard assistor for persons with motor disabilities. Such ind
 
 Prerequites: Javascript enabled web browser
 
-
-
 How to use:
 - Clone/download AdaptiBoard
 - Go to pages directory and open AdaptiveKeyboard.html in your preferred web browser
